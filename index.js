@@ -5,12 +5,13 @@ const App = require('./lib/app')
 const config = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
 
 const app = new App(config)
+app.start()
+
 process.stdin.on('keypress', (str, key) => {
   if (key.ctrl && key.name === 'c') {
     process.exit()
   } 
   if (key.name === 'space') {
-    app.tick()
+    app.next()
   }
 })
-console.log('press space to start...')
