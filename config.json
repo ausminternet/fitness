@@ -1,0 +1,43 @@
+{
+  "excercises": [
+    "pushups",
+    "pullups",
+    "crunches",
+    "benchdips",
+    "backlifts"
+  ],
+  "difficulties": {
+    "1": {
+      "maxRepeats": 160,
+      "minRepeatsPerSet": 15,
+      "maxRepeatsPerSet": 30
+    },
+    "2": {
+      "maxRepeats": 130,
+      "minRepeatsPerSet": 10,
+      "maxRepeatsPerSet": 18
+    },
+    "3": {
+      "maxRepeats": 100,
+      "minRepeatsPerSet": 8,
+      "maxRepeatsPerSet": 12
+    },
+    "4": {
+      "maxRepeats": 70,
+      "minRepeatsPerSet": 4,
+      "maxRepeatsPerSet": 8
+    },
+    "5": {
+      "maxRepeats": 40,
+      "minRepeatsPerSet": 3,
+      "maxRepeatsPerSet": 6
+    }
+  },
+  "exerciseDifficulty": {
+    "pullups": 5,
+    "pushups": 3,
+    "benchdips": 4,
+    "crunches": 1 ,
+    "backlifts": 5
+  }
+}
