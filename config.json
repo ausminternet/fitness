@@ -1,43 +1,44 @@
 {
-  "excercises": [
-    "pushups",
-    "pullups",
-    "crunches",
-    "benchdips",
-    "backlifts"
-  ],
-  "difficulties": {
-    "1": {
-      "maxRepeats": 160,
-      "minRepeatsPerSet": 15,
-      "maxRepeatsPerSet": 30
+  "exercises": [
+    {
+      "type": "pullups",
+      "repeats": {
+        "max": 40,
+        "setMax": 6,
+        "setMin": 3
+      }
     },
-    "2": {
-      "maxRepeats": 130,
-      "minRepeatsPerSet": 10,
-      "maxRepeatsPerSet": 18
+    {
+      "type": "crunches",
+      "repeats": {
+        "max": 140,
+        "setMax": 30,
+        "setMin": 15
+      }
     },
-    "3": {
-      "maxRepeats": 100,
-      "minRepeatsPerSet": 8,
-      "maxRepeatsPerSet": 12
+    {
+      "type": "pushups",
+      "repeats": {
+        "max": 80,
+        "setMax": 15,
+        "setMin": 8
+      }
     },
-    "4": {
-      "maxRepeats": 70,
-      "minRepeatsPerSet": 4,
-      "maxRepeatsPerSet": 8
+    {
+      "type": "benchdips",
+      "repeats": {
+        "max": 60,
+        "setMax": 15,
+        "setMin": 10
+      }
     },
-    "5": {
-      "maxRepeats": 40,
-      "minRepeatsPerSet": 3,
-      "maxRepeatsPerSet": 6
+    {
+      "type": "backlifts",
+      "repeats": {
+        "max": 40,
+        "setMax": 10,
+        "setMin": 6
+      }
     }
-  },
-  "exerciseDifficulty": {
-    "pullups": 5,
-    "pushups": 3,
-    "benchdips": 4,
-    "crunches": 1 ,
-    "backlifts": 5
-  }
+  ] 
 }
